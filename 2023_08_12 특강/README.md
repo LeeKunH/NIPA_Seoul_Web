@@ -3,10 +3,10 @@
 
 
 ## 특강강사 이동환
-**(현) 플러그그로스 대표**\n
-(전) 페칭 CPO
-(전) 플러스엑스 UX Lead Designer
-(전) CleanFly 창업멤버
+- **(현) 플러그그로스 대표**
+- (전) 페칭 CPO
+- (전) 플러스엑스 UX Lead Designer
+- (전) CleanFly 창업멤버
 
 
 ## 주요 프로젝트
