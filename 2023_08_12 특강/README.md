@@ -10,17 +10,12 @@
 
 
 ## 주요 프로젝트
-SKT AI service UXUI 컨설팅
-
-Kakao page UXUI 컨설팅
-
-KB Liiv UXUI 컨설팅
-
-Jeju Air UXUI 컨설팅 & 구축
-
-Samsung 신규 디바이스 선행연구
-
-YG UXUI 컨설팅&구축
+ㅡ SKT AI service UXUI 컨설팅
+ㅡ Kakao page UXUI 컨설팅
+ㅡ KB Liiv UXUI 컨설팅
+ㅡ Jeju Air UXUI 컨설팅 & 구축
+ㅡ Samsung 신규 디바이스 선행연구
+ㅡ YG UXUI 컨설팅&구축
 
 
 ## 강의 목적
