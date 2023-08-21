@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>&lt;졸업자가진단 확인 설문지&gt;</h1>
+    <h2>아래 입력칸에 정보를 입력 후 확인 메일 발송 예정.</h2>
+    <p>성명(한글/영어), 학교 이메일, 학과, 학번 기입 필수.</p>
+
+    <form action="https://www.tukorea.ac.kr/tukorea/index.do">
+        <label for="Kor_En_name">성명(한글/영어) :
+            <input id="Kor_En_name"  type="text" name="Kor_En_name" placeholder="한글/영어 이름 모두 입력">
+        </label>
+
+        <label for="email">학교 이메일 :
+            <input id="email"  type="email" name="email" placeholder="school@tukorea.ac.kr">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="school_number">학번 :
+            <input id="school_number"  type="password" name="sch_number" placeholder="학번 입력">
+        </label>
+
+        <label for="major ">학과 :
+            <input id="major " type="text" name="major " placeholder="전공학과 입력">
+        </label>
+
+        <h3>Q1. 졸업자가진단 통과 시 이번 학위수여식 참여 예정?</h3>
+
+        <label>Yes :
+            <input type="radio" name="attend" value="Yes" >
+        </label>
+
+        <label>No :
+            <input type="radio" name="attend" value="No" >
+        </label>
+
+        <h3>Q2. (No 체크한 사람만) 참가하지 않는 이유?</h3>
+        <select name="reason">
+            <option value="졸업연기">졸업연기 예정</option>
+            <option value="초과학기">초과학기 예정</option>
+            <option value="휴학">휴학 예정</option>
+            <option value="기타">기타</option>
+        </select>
+
+        <h5>(Q2. 기타 체크한 사람만) 이유 간단 작성 =></h3>
+        <textarea name="reason2" rows="8" cols="80" placeholder="참가하지 않는 이유 작성란"></textarea>
+        <input type="submit" name="" value="설문지 제출완료">
+    </form>
+
+</body>
+</html>
+
+
+
