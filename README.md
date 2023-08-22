@@ -18,8 +18,23 @@
 |7.31 ~ 8.2| SQL과 DBMS 기초, 프로그래밍언어로 DBMS 연동하기 |
 |8.3 ~ 8.4| 나만의 웹사이트 구축하기 (HTML,CSS,Python,SQL 연동) |
 
+## 4~5주간 타임테이블
+
+| 날짜  | 내용  |
+|--|--|
+|8.7| 오리엔테이션 & 강의노트북 셋업 & 1강 웹서버 |
+|8.8 ~ 8.9| 1강 웹서버와 HTTP |
+|8.10 ~ 8.11| RestAPI |
+|8.14 ~ 8.18| FastAPI 기초 사용 문법과 웹서버 구축 후 배포 |
+
 ## 강의 참고자료
 - https://developer.mozilla.org/
 - https://www.python.org/doc/
 - https://dev.mysql.com/doc/
 - http://tcpschool.com
+
+## 강의 참고자료
+- https://developer.mozilla.org/
+- https://www.python.org/doc/
+- https://asgi.readthedocs.io/en/latest/
+- https://fastapi.tiangolo.com
