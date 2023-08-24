@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- STEP 1: INSERT THE BOOTSTRAP 4 LINKS HERE -->
+  <!-- https://getbootstrap.com/ 공식홈페이지 / CDN방식으로 부트스트랩 라이브러리 내 파일에 연결 가능.-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</head>
+
+
+  <body>
+
+  <!-- COPY AND PASTE YOUR NAVBAR FROM THE OTHER PAGE HERE AS WELL! -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="BootstrapV5_Project_Main.self_practice.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="Bootstrap_Project_Signup.html">sign in</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- CREATE YOUR FORM HERE INSIDE OF A JUMBOTRON AND CONTAINER -->
+  <div class="container mt-3">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <h1>메인페이지에서 메뉴바 - 링크를 누르면 가입페이지로 넘어감.</h1>
+      <p>패딩클래스, 색상 클래스 이용해서 점포트론 효과를 똑같이 구현
+      </p>
+    </div>
+  </div>
+
+  <br>
+
+
+  <div class="container">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  </body>
+</html>
