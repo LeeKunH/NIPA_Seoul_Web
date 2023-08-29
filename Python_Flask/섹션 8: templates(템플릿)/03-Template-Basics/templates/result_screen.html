@@ -1,0 +1,27 @@
+{% extends "base3.html" %}
+
+{% block content %}
+
+<!-- check_conditions이 참일때 = 3개 조건이 모두 참일 때 -->
+{% if check_conditions %}
+<h1>축하합니다!</h1>
+<p>3가지 조건 모두 통과! 작성한 아이디는 사용 가능!!!</p>
+{% else %}
+    <!-- 조건문 안에 조건문 작성
+    즉 중첩 조건문 작성 -->
+    <h1>아이디 사용 불가능!!!</h1>
+    <ul>
+        {% if not upper_letter %}
+            <li>1번 조건 확인!</li>
+        {% endif %}
+        {% if not lower_letter %}
+            <li>2번 조건 확인!</li>
+        {% endif %}
+        {% if not num_end %}
+            <li>3번 조건 확인!</li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+
+{% endblock %}

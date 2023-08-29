@@ -1,0 +1,21 @@
+{% extends "base2.html" %}
+
+{% block content %}
+
+<div class="container bg-info text-dark p-4">
+    <h1 class="display-4">이 페이지는 가입 페이지!!!</h1>
+    <p>아래는 사용자가 데이터를 입력하고 제출할 수 있는 입력폼!!!</p>
+    <form action="{{url_for('thank_you')}}">
+        <label for="성">성 : </label>
+        <input type="text" name="성">
+        <label for="이름">이름 : </label>
+        <input type="text" name="이름">
+
+        <input type="submit" value="제출하기 버튼">
+    </form>
+
+
+
+</div>
+
+{% endblock %}

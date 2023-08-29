@@ -1,0 +1,25 @@
+{% extends "base3.html" %}
+
+{% block content %}
+
+    <h3>Cr 웹 서비스 가입 아이디 확인하는 페이지!</h3>
+    <br>
+    <h3>구독 시 사용할 아이디 사용 가능 여부를 확인하고 싶다면 아래 form을 작성!</h3>
+    <br>
+    <h3>정보 입력 시 주의사항 존재!</h3>
+    <br>
+
+    <ul>
+        <li>1. Must have an upper case letter somewhere.</li>
+        <li>2. Must have a lower case letter somewhere.</li>
+        <li>3. Must have a number at the end.</li>
+    </ul>
+
+    <form action="{{url_for('check_conditions')}}">
+        <label for="name">유저이름 : </label>
+        <input type="text" name="username">
+        <input type="submit" value="제출하기 버튼">
+    </form>
+
+
+{% endblock %}
